@@ -74,13 +74,17 @@ textarea {
   border: black;
   height: 20%;
   border-radius: 5px;
-  margin:150px 0 20px;
+  margin:50px 0 20px;
   background-color: rgb(34, 32, 36);
   color: #fff;
 }
 
 .tag__wrapper{
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
+
 }
 .tag {
   background-color: rgba(171, 164, 131,0.6);
